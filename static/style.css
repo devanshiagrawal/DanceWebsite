@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fjalla+One&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin: 0 10px;
+    font-size: 18px;
+    margin-right: 27px;
+    margin-left: -22px;
+}
+
+#logo img{
+    height: 24px;
+    width: 69px;
+    /* filter: invert(1); */
+}
+
+#navbar{
+    background-color: rgb(204 43 43);
+    padding: 20px 35px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 8px 40px;
+    color: white;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introsection{
+    height: 450px;
+    color: white;
+    background-color: red;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Fjalla One', sans-serif;
+    flex-direction: column;
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#introsection div.small{
+    font-size: 24px;
+    padding: 4px;
+}
+
+#missionssection{
+    height: 300px;
+    width: 60%;
+    margin: auto;
+}
+
+#missionssection h3{
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    padding-top: 11px;
+    font-size: 35px;
+
+}
+
+.card{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 27%;
+    margin: 27px 28px;
+    height: 184px;
+    display: inline-block;
+    font-family:'Fjalla One', sans-serif;
+
+}
+
+.card h4{
+    text-align: center;
+    margin: 10px;
+    font-size: 19px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 85px;
+    padding: 0px -6px;
+    margin: 16px -10px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content p {
+    font-family:'Fjalla One', sans-serif;
+}
+
+#sponsorssection{
+    height: 300px;
+    background-color: #d9d3d3;
+    margin-top: 27px;
+}
+
+#sponsorssection h3{
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    padding-top: 11px;
+    font-size: 35px;
+
+}
+
+#sponsors{
+    height: 184px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.spimage{
+    height: 80%;
+    margin: 25px;
+}
+
+#footer{
+    height: 50px;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Acme', sans-serif;
+}

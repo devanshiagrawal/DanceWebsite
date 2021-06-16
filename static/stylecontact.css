@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fjalla+One&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0;
+    font-family: 'Acme', sans-serif;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    width: 40%;
+    padding: 13px;
+    margin: 10px 10px;
+    font-size: 15px;
+    border: 2px solid #6e6868;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn{
+    border: 2px solid black;
+    margin: 10px 10px;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.container{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
